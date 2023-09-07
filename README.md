@@ -38,6 +38,16 @@ usage:
     xfel extra [...]                                    - The extra commands
 ```
 
+## Windows MinGW build environment settings:
+
+   Open MinGW64 bash:
+
+```shell
+    $ pacman -S mingw-w64-x86_64-libusb
+    $ cd xfel
+    $ make
+```
+
 ## Links
 
 * [The chinese discussion posts](https://whycan.com/t_6546.html)

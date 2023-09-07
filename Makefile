@@ -20,9 +20,9 @@ ARFLAGS		:= -rcs
 MCFLAGS		:=
 
 LIBDIRS		:=
-LIBS 		:= `pkg-config --libs libusb-1.0`
+LIBS 		:= -L/mingw64/lib -lusb-1.0
 
-INCDIRS		:= -I . `pkg-config --cflags libusb-1.0`
+INCDIRS		:= -I . -I/mingw64/include/libusb-1.0
 SRCDIRS		:= . chips
 
 
